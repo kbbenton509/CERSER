@@ -1,0 +1,18 @@
+1. ls -a
+2. rm -rf
+3. free -m. Linux is borrowing unused memory for disk caching. 
+4. find ./* -type f -exec grep -H 'my konfi is the best' {} \;
+   grep -r 'my konfi is the best' ./*
+5.it will enable built in "completion" function. Most shells allow command completion, typically bound to the TAB key, which allow you to complete the names of commands stored upon your PATH, file names, or directory names.
+6.df -h
+7.chown - command to change file owner and group information.
+  chmod - command to change file access permissions such as read, write, and access.
+8.This command will set executation bit to FILENAME for everybody owner\group\other.
+9.This permissions means that owner can read\write\execute this file, also members of group can read and execute, other users can do nothing with it.
+10. This permissions means that owner can read\write\execute(see file list of directory) this directory, also members of group can read and list, other users can do nothing with it.
+11. useradd -M subversion
+12. usermod -a -G group user for adding, gpasswd -d user group for removing
+13. is essentially nothing more than a keyboard shortcut, an abbreviation, a means of avoiding typing a long command sequence. 
+14. https://anandarajpandey.com/2014/09/10/how-to-change-default-root-email-address-linux-postfix-centos/
+15. Stops a running program
+16. https://www.cyberciti.biz/faq/what-is-the-difference-between-linux-and-unix/
